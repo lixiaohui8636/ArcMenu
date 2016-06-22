@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initCenter();//初始化中间的图标及处理实际那
+        initCenter();//初始化中间的图标及处理点击事件
         initView();
     }
 
